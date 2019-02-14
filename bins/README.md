@@ -5,7 +5,7 @@ compile the source code.
 
 The present version of the binaries here is:
 
-##VERSION "1.02-20190212"
+## VERSION "1.02-20190212"
 
 * [SHA256] 215352f166ac2004f20fd7fc8a87c5e36525478b97c6b806b1efda0e3253f375  ets_linux_i686
 * [SHA256] 3a709987433a2ed6c362b618e434db5974f0322af566e36d2e65f12318fb95ae  ets_linux_x86_64
