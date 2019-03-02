@@ -27,5 +27,9 @@ sudo tcpdump -i en0 -p --immediate-mode -U -s14 -w - 2> /dev/null | ./ets_osx -
 ```
 (see doit_imac2.sh) or the equivalent for your build and OS (in particular mind the interface you use in tcpdump).
 
-## screenshot:
+## screenshot
 ![Alt text](/screenshot1.png?raw=true "Screenshot")
+
+## misc
+You may also like:
+* tshark -z hosts,ipv4,ipv6
