@@ -33,3 +33,4 @@ sudo tcpdump -i en0 -p --immediate-mode -U -s14 -w - 2> /dev/null | ./ets_osx -
 ## misc
 You may also like:
 * tshark -z hosts,ipv4,ipv6
+* tshark -qz io,phs 
