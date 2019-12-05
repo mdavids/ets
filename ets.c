@@ -33,10 +33,11 @@
 #include <signal.h>		//for SIGWINCH handler
 #include <locale.h>		//format the numbers in printf
 #include <ncurses.h>		//ncurses
+#include <sys/socket.h>
 #include <netinet/in.h>		//internet protocol family
 #include </usr/include/pcap/pcap.h>	//pcap library
 #include <netinet/if_ether.h>	//ethernet header declarations
-//#include <netinet/ether.h>              //ethernet header declarations
+//#include <netinet/ether.h>      //ethernet header declarations
 
 /* Prototypes */
 void handle_packet (u_char *, const struct pcap_pkthdr *, const u_char *);
