@@ -80,7 +80,7 @@ main (int argc, char *argv[])
 {
   //setlocale (LC_NUMERIC, "nl_NL.ISO8859-15"); // printf("%'d\n", 1123456789); <-- hopefully becomes 1.123.456.789
   setlocale (LC_NUMERIC, "en_US.UTF-8");
-  const char *fname = argv[1];	//pacp filename
+  const char *fname = argv[1];		//pcap filename
   char errbuf[PCAP_ERRBUF_SIZE];	//error buffer
 
   //handle if pcap file is missing
