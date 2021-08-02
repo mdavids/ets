@@ -101,10 +101,10 @@ main (int argc, char *argv[])
       exit (EXIT_FAILURE);
     }
 
-  //open pacp file
+  //open pcap file
   handle = pcap_open_offline (fname, errbuf);
 
-  //if pacp file has errors
+  //if pcap file has errors
   if (handle == NULL)
     {
       printf ("pcap file [%s] with error %s \n", fname, errbuf);
@@ -154,7 +154,7 @@ main (int argc, char *argv[])
   starttime = time (NULL);
   ctime_r (&starttime, time_start);
 
-  //pacp loop to set our callback function
+  //pcap loop to set our callback function
   //the work is done in handle_packet
   pcap_loop (handle, 0, handle_packet, NULL);
 
