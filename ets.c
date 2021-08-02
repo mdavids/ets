@@ -17,7 +17,7 @@
  ********************************************************
  * To compile: $ gcc -Wall -o ets_osx ets.c -l pcap -l ncurses
  * 
- * To run: sudo tcpdump -i en0 -p --immediate-mode -U -s14 -w - 2> /etc/null | ./ets_osx -
+ * To run: sudo tcpdump -i en0 -p --immediate-mode -U -s14 -w - 2> /dev/null | ./ets_osx -
  *     Or: ./ets_osx <some file captured from tcpdump or wireshark>
  ******************************************************** 
  *
