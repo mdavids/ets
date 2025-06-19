@@ -5,8 +5,8 @@
 
 #clear
 
-# Is your interface indeed en0 or eth0?
-sudo tcpdump -i en0 -p --immediate-mode -U -s14 -w - 2>/dev/null | ./ets_osx -
+# Is your interface indeed en1 or eth0?
+sudo tcpdump -i en1 -p --immediate-mode -U -s14 -w - 2>/dev/null | ./ets_osx -
 #sudo tcpdump -i eth0 -p --immediate-mode -U -s14 -w -  2>/dev/null | ./ets_linux -
 
 #

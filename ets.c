@@ -35,7 +35,8 @@
 #include <ncurses.h>		//ncurses
 #include <sys/socket.h>
 #include <netinet/in.h>		//internet protocol family
-#include </usr/include/pcap/pcap.h>	//pcap library
+#include <pcap.h>		//pcap library
+//#include </usr/include/pcap/pcap.h>     //pcap library
 #include <netinet/if_ether.h>	//ethernet header declarations
 //#include <netinet/ether.h>      //ethernet header declarations
 
